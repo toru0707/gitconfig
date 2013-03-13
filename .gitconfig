@@ -1,0 +1,13 @@
+[user]
+	name = toru0707
+	email = toru0707@gmail.com 
+[color]
+	ui = auto
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\\\"%h %ad | %s%d [%an]\\\" --graph --date=short
+[core]
+	excludesfile = ~/.gitignore
